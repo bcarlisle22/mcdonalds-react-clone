@@ -5,3 +5,6 @@ McDonald's Clone
 ``React`` | ``Tailwind CSS`` | ``Vite``
 <br>
 
+
+![](mcdonalds-react.png)
+
