@@ -13,14 +13,14 @@ import mdhome10 from '../assets/mdhome10.jpeg'
 
 const Home = () => {
   return (
-    <section className="py-[5%] mx-[5%]">
+    <section className="py-[5%] px-[12%]">
 
         <div className="grid gap-4 lg:grid-cols-2 md: pb-[10%]"> {/* section 1  */}
             <div>
-                <img className="" src={mdhome1} alt="Doodle cups"/>
+                <img className="w-[100%]" src={mdhome1} alt="Doodle cups"/>
             </div>
 
-            <div className="ml-[2%]">
+            <div className="ml-[2%] sm:w-[80%]">
                 <h1 className="font-extrabold text-4xl w-[100%]"> McCafé® x Doodles® holiday cups</h1>
                 <p className="py-5 font-extralight text-md"> Let the festivities begin with 3 new designs—pair yours with any <span className="text-blue-600 underline"> hot McCafé drink</span>.
                 Order it in the app and sip into the magical world of Doodles.
