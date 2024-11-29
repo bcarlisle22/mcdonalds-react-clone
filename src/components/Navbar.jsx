@@ -13,7 +13,7 @@ const Navbar = () => {
                     </a>
                 </div>
 
-            <div className=""> 
+            <div className="hidden 2xl:block"> 
                 <div className="font-extralight flex py-5">
                     <div className="flex text-sm pr-[30%]">
                     <a href="#" className="pr-6"> Language </a>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <section className="py-[2%]">
+    <section className="py-[2%] hidden sm:block">
         <div className="flex px-[12%]">
 
             <div className="text-md px-[5%]">
