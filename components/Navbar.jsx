@@ -4,7 +4,7 @@ import biglogo from '../assets/biglogo.jpg'
 const Navbar = () => {
   return (
     <nav className="border-b-2">
-        <div className="text-md font-light px-[20%] pt-4">
+        <div className="text-md font-light px-[12%] pt-4">
 
             <div className="flex">
                 <div className="pr-10">
@@ -23,8 +23,8 @@ const Navbar = () => {
 
                     <div className="text-sm">
                     <a href="#" className="pr-6"> Search </a>
-                    <a href="#" className="pr-6"> Find Your Restaurant </a>
-                    <a href="#" className="pr-6"> Order Now </a>
+                    <a href="#" className="pr-6 text-blue-600 underline"> Find Your Restaurant </a>
+                    <button><a href="#" className="ml-6 "> Order Now </a></button>
                     </div>
                 </div>
                 <div className="font-light text-md">
@@ -49,5 +49,7 @@ const Navbar = () => {
     </nav>
   )
 }
+
+// bg-[#ffbc0d] font-light px-12 py-3 rounded-[5px] text-md my-10
 
 export default Navbar
