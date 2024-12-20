@@ -13,5 +13,4 @@ McDonald's Clone
 ![](mr-3.png)
 ![](mr-4.png)
 ![](mr-5.png)
-![](mr-6.png)
-
+![](mcdr-last.png)
