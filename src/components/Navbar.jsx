@@ -1,5 +1,10 @@
 import React from 'react'
 import biglogo from '../assets/biglogo.jpg'
+import { CiSearch } from "react-icons/ci";
+import { FaLocationDot } from "react-icons/fa6";
+import { RiArrowDownSLine } from "react-icons/ri";
+
+
 
 const Navbar = () => {
   return (
@@ -14,28 +19,34 @@ const Navbar = () => {
                 </div>
 
             <div className="hidden 2xl:block"> 
-                <div className="font-extralight flex py-5">
+                <div className="font-extralight flex pb-[20px]">
                     <div className="flex text-sm pr-[30%]">
-                    <a href="#" className="pr-6"> Language </a>
-                    <a href="#" className="pr-6"> Sign Up for Email </a>
-                    <a href="#" className="pr-6"> Careers </a>
+                        <ul className="flex space-x-3 items-center">
+                            <li> <a href="#" className="flex items-center"> Language&nbsp;<RiArrowDownSLine /> </a></li>
+                            <li> <a href="#"> Sign Up for Email </a></li>
+                            <li> <a href="#"> Careers </a> </li>
+                        </ul>
                     </div>
 
                     <div className="text-sm">
-                    <a href="#" className="pr-6"> Search </a>
-                    <a href="#" className="pr-6 text-blue-600 underline"> Find Your Restaurant </a>
-                    <button><a href="#" className="ml-6 "> Order Now </a></button>
+                        <ul className="flex space-x-5 items-center">
+                            <li> <a href="#" className="flex items-center"><CiSearch /> &nbsp;Search </a></li>
+                            <li><a href="#" className="flex items-center text-blue-600 underline"><FaLocationDot className="text-red-600"/> Find Your Restaurant</a></li>
+                            <li><button className="flex items-center border border-[#ffbc0d] px-[28px] py-[10px] rounded-md bg-[#ffbc0d] font-light"><a href="#"> Order Now </a></button></li>
+                        </ul>
                     </div>
                 </div>
                 <div className="font-light text-md">
-                    <a href="#" className="pr-4"> Our Menu </a>
-                    <a href="#" className="pr-4"> Download App </a>
-                    <a href="#" className="pr-4"> MyMcDonald's Rewards </a>
-                    <a href="#" className="pr-4"> Exclusive Deals </a>
-                    <a href="#" className="pr-4"> About Our Food </a>
-                    <a href="#" className="pr-4"> McDelivery </a>
-                    <a href="#" className="pr-4"> Locate </a>
-                    <a href="#" className="pr-4"> Gift Cards </a>
+                    <ul className="flex space-x-5">
+                        <li><a href="#" className="flex items-center"> Our Menu&nbsp;<RiArrowDownSLine /></a> </li>
+                        <li><a href="#"> Download App </a> </li>
+                        <li><a href="#"> MyMcDonald's Rewards </a> </li>
+                        <li><a href="#"> Exclusive Deal </a> </li>
+                        <li><a href="#"> About Our Food </a> </li>
+                        <li><a href="#"> McDelivery® </a> </li>
+                        <li><a href="#"> Locate </a> </li>
+                        <li><a href="#"> Gift Cards </a> </li>
+                    </ul>
                 </div>
             </div>
 
